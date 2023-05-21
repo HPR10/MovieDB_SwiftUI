@@ -11,6 +11,7 @@
 		E6AA7FDF2A1ACA4C0083D12D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AA7FDE2A1ACA4C0083D12D /* ContentView.swift */; };
 		E6AA7FE12A1ACA4E0083D12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AA7FE02A1ACA4E0083D12D /* Assets.xcassets */; };
 		E6AA7FE42A1ACA4E0083D12D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AA7FE32A1ACA4E0083D12D /* Preview Assets.xcassets */; };
+		E6AA7FEB2A1ACADF0083D12D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AA7FEA2A1ACADF0083D12D /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E6AA7FDE2A1ACA4C0083D12D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6AA7FE02A1ACA4E0083D12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6AA7FE32A1ACA4E0083D12D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6AA7FEA2A1ACADF0083D12D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				E6AA7FDC2A1ACA4C0083D12D /* MovieDB_SwiftUIApp.swift */,
+				E6AA7FEA2A1ACADF0083D12D /* HeaderView.swift */,
 				E6AA7FDE2A1ACA4C0083D12D /* ContentView.swift */,
 				E6AA7FE02A1ACA4E0083D12D /* Assets.xcassets */,
 				E6AA7FE22A1ACA4E0083D12D /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6AA7FDF2A1ACA4C0083D12D /* ContentView.swift in Sources */,
+				E6AA7FEB2A1ACADF0083D12D /* HeaderView.swift in Sources */,
 				E6AA7FDD2A1ACA4C0083D12D /* MovieDB_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
