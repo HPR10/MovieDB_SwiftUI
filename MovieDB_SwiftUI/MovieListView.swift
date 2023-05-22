@@ -22,3 +22,4 @@ struct MovieListView_Previews: PreviewProvider {
         MovieListView()
     }
 }
+
