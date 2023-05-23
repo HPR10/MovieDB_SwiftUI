@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct ListMovieView: View {
+    
+    @ObservedObject var viewModel = ListMovelModel()
+    
     var body: some View {
-        Text("List movies")
+       Text("Hello Word!")
+            .onAppear {
+                viewModel.fetchData()
+        }
     }
 }
 
