@@ -11,7 +11,7 @@ struct TabBarView: View {
     
         var body: some View {
             TabView {
-                MovieListView()
+                ListMovieView()
                     .tabItem {
                         Image(systemName: "house")
                         Text("Primeiro")
